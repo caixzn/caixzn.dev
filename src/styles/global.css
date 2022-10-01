@@ -1,0 +1,69 @@
+body {
+  background-color: #0E1C36;
+  color: #e9f1f7;
+  font-size: 16px;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+section {
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+  max-width: 418px;
+  padding: 20px;
+}
+
+a {
+  color: darkgray;
+}
+
+a:visited {
+  color: dimgray;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+a[href^="http"] {
+  padding-left: 19px;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+a[href*="github.com"]{
+  background-image: "./favicons/gh.png";
+}
+a[href*="atcoder.jp"]{
+  background-image: "./favicons/ac.webp";
+}
+a[href*="linkedin.com"]{
+  background-image: "./favicons/in.png";
+}
+a[href*="codeforces.com"]{
+  background-image: "./favicons/cf.png";
+}
+a[href*="twitter.com"]{
+  background-image: "./favicons/twt.png";
+}
+a[href*="ifb.edu.br"]{
+  padding-left: unset;
+  background-size: unset;
+  background-repeat: unset;
+  background-position: unset;
+}
