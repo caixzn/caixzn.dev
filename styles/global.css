@@ -47,19 +47,19 @@ a[href^="http"] {
   background-position: left center;
 }
 a[href*="github.com"]{
-  background-image: "favicons/gh.png";
+  background-image: url(favicons/gh.png);
 }
 a[href*="atcoder.jp"]{
-  background-image: "favicons/ac.webp";
+  background-image: url(favicons/ac.webp);
 }
 a[href*="linkedin.com"]{
-  background-image: "favicons/in.png";
+  background-image: url(favicons/in.png);
 }
 a[href*="codeforces.com"]{
-  background-image: "favicons/cf.png";
+  background-image: url(favicons/cf.png);
 }
 a[href*="twitter.com"]{
-  background-image: "favicons/twt.png";
+  background-image: url(favicons/twt.png);
 }
 a[href*="ifb.edu.br"]{
   padding-left: unset;
