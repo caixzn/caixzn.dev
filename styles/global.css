@@ -1,69 +1,48 @@
 body {
-  background-color: #0E1C36;
+  background-color: #0D1117;
   color: #e9f1f7;
-  font-size: 16px;
-  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font: 1.2rem system-ui, sans-serif;
 }
 
-h1,
-h2,
+li {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon-badge {
+  width: 1.5rem;
+  filter: invert(0.8);
+}
+
+.icon-inline {
+  width: 0.9em;
+  filter: invert(0.8);
+}
+
 p {
-  margin: 1em auto;
-  text-align: center;
+  line-height: 1.5em;
+  text-align: left;
 }
 
 h2 {
-  margin-bottom: 0;
+  margin-top: 0;
+}
+
+h1 {
+  margin: 1.75rem 1.25rem 0;
+  font-size: 2.5rem;
+}
+
+ul {
+  padding: 0;
+  line-height: 2.25em;
 }
 
 section {
-  margin-right: auto;
-  margin-left: auto;
-  width: 85%;
-  max-width: 418px;
-  padding: 20px;
+  max-width: 60ch;
+  padding: 3rem 1.5rem 0;
 }
 
 a {
-  color: darkgray;
-}
-
-a:visited {
-  color: dimgray;
-}
-
-a:hover {
-  color: white;
-}
-
-a:active {
-  color: white;
-}
-
-a[href^="http"] {
-  padding-left: 19px;
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
-  background-position: left center;
-}
-a[href*="github.com"]{
-  background-image: url(favicons/gh.png);
-}
-a[href*="atcoder.jp"]{
-  background-image: url(favicons/ac.webp);
-}
-a[href*="linkedin.com"]{
-  background-image: url(favicons/in.png);
-}
-a[href*="codeforces.com"]{
-  background-image: url(favicons/cf.png);
-}
-a[href*="twitter.com"]{
-  background-image: url(favicons/twt.png);
-}
-a[href*="ifb.edu.br"]{
-  padding-left: unset;
-  background-size: unset;
-  background-repeat: unset;
-  background-position: unset;
+  color: #e9f1f7;
 }
