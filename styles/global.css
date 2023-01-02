@@ -7,15 +7,12 @@ body {
 li {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .icon-badge {
   width: 1.5rem;
-  filter: invert(0.8);
-}
-
-.icon-inline {
-  width: 0.9em;
+  height: 1.5rem;
   filter: invert(0.8);
 }
 
