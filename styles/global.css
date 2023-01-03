@@ -2,6 +2,8 @@ body {
   background-color: #0D1117;
   color: #e9f1f7;
   font: 1.2rem system-ui, sans-serif;
+  max-width: max-content;
+  margin: 0.5rem auto;
 }
 
 li {
@@ -37,9 +39,14 @@ ul {
 
 section {
   max-width: 60ch;
-  padding: 3rem 1.5rem 0;
+  margin: 3rem 1.5rem 0;
 }
 
 a {
   color: #e9f1f7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
